@@ -1,0 +1,9 @@
+var dataInt={'data':[{'user_img':'white1.jpg','item_text':'美甲护手','head_title':'【在线问达人】五大妙招大风丸机…','contant_text':'有深浅之分，无论肤色的深与浅，我们都我们都想要将美白进行到底','head_logo':'head_logo.jpg','user_id':'abc','data_time':'1天前','user_view':'666'},{'user_img':'white2.jpg','item_text':'美甲护手','head_title':'【在线问达人】五大妙招风油精…','contant_text':'有深浅之分，无论肤色的深与浅，我们都我们都想要将美白进行到底','head_logo':'head_logo.jpg','user_id':'abc','data_time':'2天前','user_view':'666'},{'user_img':'white3.jpg','item_text':'美甲护手','head_title':'【在线问达人】五大妙招大保健…','contant_text':'有深浅之分，无论肤色的深与浅，我们都我们都想要将美白进行到底','head_logo':'head_logo.jpg','user_id':'abc','data_time':'3天前','user_view':'666'},{'user_img':'white4.jpg','item_text':'美甲护手','head_title':'【在线问达人】五大妙招花露水…','contant_text':'有深浅之分，无论肤色的深与浅，我们都我们都想要将美白进行到底','head_logo':'head_logo.jpg','user_id':'abc','data_time':'5天前','user_view':'666'}]}; 
+function dox(big_box_name,small_box_name,jsona,ju) {
+    $.each( jsona.data, function( index, value ){
+        var $oPin = $('<div>').addClass(small_box_name).appendTo( $(big_box_name) );
+        
+        //解释json后html要拼接的代码**要手写
+        $oPin.html("<div class='left_box'>"+"<div class='piture_box'>"+"<img src='image/images/"+dataInt.data[index].user_img+"'alt=''>"+"</div>"+"<div class='text_box'>"+"<span>"+dataInt.data[index].item_text+"</span>"+"</div></div>"+"<div class='right_box'>"+"<div class='title'>"+"<span>"+dataInt.data[index].head_title+"</span>"+"</div>"+"<span class='line'></span>"+"<div class='text_content'>"+"<span>"+dataInt.data[index].contant_text+"</span>"+"</div>"+"<div class=user_box clear><div class='user_left'><i class='head_logo'><img src='image/images/"+dataInt.data[index].head_logo+"'alt=''></i>"+"<span class='user_id'>"+dataInt.data[index].user_id+"</span></div>"+"<div class='user_right'><i class='fa fa-clock-o blue'></i><span>"+dataInt.data[index].data_time+"</span>"+" <i class='fa fa-eye pink'></i><span>"+dataInt.data[index].user_view+"</span></div>");
+    });            
+};

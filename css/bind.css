@@ -1,0 +1,45 @@
+.input_list{
+	padding: 0 10px;
+	background-color: #fff;
+}
+.input_list>div{
+	height: 45px;
+	font-size: 0;
+	border-bottom: 1px solid #e2e5e8;
+}
+.input_list input{
+	font-size: 0.7rem;
+	line-height: 44px;
+}
+.input_list input{
+	width: 70%;
+	vertical-align: middle;
+}
+.code{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	padding: 8px;
+	border-radius: 8px;
+	font-size: 0.7rem;
+	vertical-align: middle;
+	color: #fff;
+}
+.input_list .last_form{
+	border: none;
+}
+.sbm{
+	display: block;
+    line-height: 44px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+.bbb{
+    background-color: #bbb;
+}
+.fc4{
+	background-color: #fc4aac;
+}

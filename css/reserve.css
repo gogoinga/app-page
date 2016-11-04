@@ -1,0 +1,112 @@
+.con1,.con2,.con3{
+	background-color: #fff;
+	padding: 0 10px;
+	font-size: 0.7rem;
+}
+.con2,.con3{
+	margin-top: 10px;
+}
+.con1 p,.con2 p,.con3 p{
+	line-height: 44px;
+}
+.con_item {
+	display: block;
+	color: #000;
+	border-bottom: 1px solid #e2e5e8;
+}
+.riarr{
+	background: url(../image/images/bgarr.png) right center no-repeat;
+	background-size: 3.5%;
+}
+.last_item {
+	border: none;
+}
+.fori{
+	float:right;
+}
+.mari{
+	margin-right: 6%;
+}
+.con2_reba{
+	text-align: right
+}
+.con2_reba p i{
+	font-size: 0.5rem;
+	margin-right: 3px;
+}
+.money_bg{
+	color: #fc4aac;
+}
+.con2_reba a{
+	color: #07b3f3;
+	font-size: 0.6rem;
+}
+.sbm{
+	display: block;
+    line-height: 44px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+.bbb{
+    background-color: #bbb;
+}
+.fc4{
+	background-color: #fc4aac;
+}
+.mask{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2001;
+	background-color: rgba(152,153,154,0.4);
+}
+.select_men,.select_pay{
+	width: 66%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -33%;
+	margin-top: -50%;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.select_men p,.select_pay p{
+	line-height: 44px;
+	font-size: 0.7rem;
+}
+.se_tit{
+	background-color: #cf0194;
+	color: #fff;
+}
+.select_men a,.select_pay a{
+	font-size: 0.7rem;
+	color: #000;
+	display: block;
+	margin: 0 10px;
+	border-bottom: 1px solid #dfe5e6;
+}
+.select_men .last_men,.select_pay .last_men{
+	border: none;
+}
+.select_men .becli,.select_pay .becli{
+	color: #fc4aac;
+}
+.se_pay i{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.wei{
+	color: #81b447;
+}
+.curreny{
+	color: #fc4aac;
+}

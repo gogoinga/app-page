@@ -1,0 +1,88 @@
+body{
+	background-color: #eaebed;
+}
+.main-box{
+	width: 100%;
+	height: 4rem;
+	background: #fff;
+	margin-bottom: 5px;
+}
+.nav{
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+}
+.nav .piture-li{
+	display: inline-block;
+	width: 17.5%;
+	margin: 3% 0.78125%;
+}
+.nav .piture-li img{
+	width: 100%;
+	display: block;
+}
+
+.main{
+	position: relative;
+}
+.content{
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+.content .content_zong{
+	display: block;
+	padding: 10px 0;
+	background-color: #fff;
+}
+.content_header{
+	border-bottom: 1px dashed #ccc;
+	padding: 0 10px 3%;
+}
+.user_img{
+	width: 13%;
+	float: left;
+	margin-right: 2%;
+}
+.info{
+	font-size: 0.5rem;
+	color: #999;
+	overflow: hidden;
+}
+.user_info span{
+	margin-right: 2%;
+}
+.tu_eye,.tu_jian{
+	margin-right: 2px;
+}
+.tu_jian{
+	color: #0ab4f3;
+}
+.tu_eye{
+	font-size: 14px;
+	color: #ff92d1;
+}
+.con_des{
+	color: #fff;
+	background-color: #ff92d1;
+	padding: 0 3%;
+	border-radius: 50px;
+	float: right;
+	margin: 0;
+}
+.con_tit{
+	font-size: 0.7rem;
+	font-weight: bold;
+	margin-top: 3%;
+	color: #000;
+}
+.content_body{
+	padding: 0 10px;
+}
+.content_body .con_det{
+	color: #000;
+	font-size: 0.6rem;
+	margin: 4% 0;
+}
+.content_body img{
+	width: 100%;
+}

@@ -1,0 +1,93 @@
+.main{
+	position: relative;
+}
+.content{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+.det_con_des{
+	float: right;
+}
+.no1{
+	color: #00f;
+}
+.eveimg{
+	margin-top: 3%;
+}
+.lou_tit{
+	font-size: 0.7rem;
+	font-weight: bold;
+	margin-top : 3% ;
+	color: #fc4aac;
+}
+.jian h3{
+	font-size: 0.7rem;
+	color: #000;
+	margin-top: 3%;
+}
+.jian p{
+	color: #000;
+	font-size: 0.6rem;
+}
+.con_foo{
+	margin-top: 3%;
+	border-top: 1px dashed #ccc;
+}
+.con_foo a{
+	display: inline-block;
+	text-align: center;
+	line-height: 36px;
+	font-size: 0.5rem;
+	color: #000;
+}
+.con_foo .ping{
+	float: right;
+	padding-right: 10px;
+}
+.con_foo .liu{
+	padding-left: 10px;
+}
+.con_foo .sou,.con_foo .zhan{
+	padding: 0 4%;
+	float: right;
+}
+.con_foo a i{
+	display: inline-block;
+	vertical-align: middle;
+}
+.ping_deta{
+	display: none;
+	margin: 0 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding: 10px 3% 0;
+}
+.ping_deta p{
+	font-size: 0.5rem;
+}
+.ping_deta p span{
+	color: #00f;
+}
+.ping_ever{
+	margin-bottom: 3%;
+}
+.author{
+	margin-right: 4px;
+}
+.other{
+	margin: 0 4px;
+}
+.ping_btn{
+	margin-top: 3%;
+	display: block;
+	font-size: 0.5rem;
+	color: #000;
+	text-align: center;
+	border-top: 1px dashed #ccc;
+	line-height: 32px;
+}
+.zhan i{
+	margin-top: -6px;
+}

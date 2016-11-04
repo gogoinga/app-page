@@ -1,0 +1,254 @@
+nav {
+	background: #eaebed;
+}
+.head_nav {
+	width: 100%;
+}
+.head_nav ul {
+	margin: 0 auto;
+}
+.nav_li_spa{
+	width: 25%;
+	float: left;
+	background: #ffffff;
+	font-size: 0.5rem;
+	padding: 0.5rem 0rem;
+	text-align: center;
+	border-top: 1px solid #eaebed;
+	border-left: 1px solid #eaebed;
+}
+.nav_li_spa a{
+	color: #999999;
+}
+.piture_box_spa{
+	padding: 0.375rem 0rem;
+	width: 100%;
+}
+.piture{
+	width: 14rem;
+	height: 6.5rem;
+	float: left;
+}
+.piture img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right_ul{
+	width: 2rem;
+	float: right;
+	height: 6.5rem;
+    overflow: hidden;
+}
+.right_li{
+	width: 2rem;
+	height: 2.15rem;
+	background:#ffffff;
+	margin-top: 2px;
+	text-align: center;
+	padding-top: 1px;
+	font-size: 0px;
+}
+.no_margin{
+	margin: 0px 0px 0px 0px;
+}
+.right_li .icon {
+	display: block;
+	font-size: 1rem;
+	margin-top: 0.2rem;
+}
+.right_li a {
+	color: #999999;
+}
+.num {
+	font-size: 0.4rem;
+	display: block;
+	margin-top: 0.15rem;
+}
+.orange{
+	color: #f17e56;
+}
+.pink{
+	color:#fc4aac;
+}
+.green {
+	color: #1bc6b3;
+}
+.yellow{
+		color: #f6da40;
+}
+.gray {
+	color: #999999;
+}
+.contant_box{
+	width: 100%;
+	margin-bottom: 2.5rem;
+	background: #eaebed;
+}
+.tab_box{
+	width: 50%;
+	float: left;
+	background: #f9f9f9;
+	text-align: center;
+	padding: 0.25rem 0rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.tab_box .btn1 {
+	width: 99%;	
+	font-size: 0.95rem;
+	display:block;
+	line-height: 1.5rem;
+	border-right: 1px solid #e0e0e0;
+	color: #999999;
+}
+.tab_box .btn2 {
+	display:block;
+	width: 100%;	
+	font-size: 0.95rem;
+	line-height: 1.5rem;
+	color: #999999;
+}
+.tab_box .pink {
+	color:#fc4aac;
+}
+.nav_button {
+	padding:0% 4.5%;
+	background: #fff;
+}
+.nav_button .pink{
+	color:#fc4aac;
+}
+.item_name {
+	float: left;
+	width: 25%;
+	background:#ffffff;
+	text-align: center;
+	font-size: 0.6rem;
+	line-height: 1.65rem;
+	color: #999999;
+}
+.item_contant li{
+	display: none;
+	position: relative;
+}
+.item_contant .open{
+	display: block;
+}
+.good{
+	width:7.8rem;
+	float: left;
+	margin: 0.125rem 0rem 0rem 0.13rem;
+}
+.good img{
+	display: block;
+	width: 100%;
+}
+.resolute {
+	position: relative;
+}
+.text_contant {
+	width: 100%;
+	background:rgba(255, 255, 255, 0.7);
+	position: absolute;
+	bottom: 0px;
+	padding-bottom: 0.4rem;
+}
+.good_name{
+	font-size: 0.5rem;
+	color: #333333;
+}
+.delete_line{
+	font-size: 0.45rem;
+	color: #999999;
+	text-decoration:line-through;
+	padding-left: 0.3rem;
+}
+.money{
+	font-size: 0.45rem;
+	color: #666666;
+	line-height: 0.7rem;
+}
+.youhui {
+	font-size: 0.4rem;
+	color: #999999;
+}
+.seller_box {
+	width: 100%;
+	line-height: 0.8rem;
+}
+.seller_name{
+	font-size: 0.45rem;
+	color: #666666;
+	float: left;
+}
+.right_location{
+	float: right;
+    font-size: 0.45rem;
+    color: #a49f99;
+    margin-right: 0.25rem;
+}
+.right_location .icon{
+	font-size: 0.45rem;
+}
+.margin_left{
+	margin-left: 0.25rem;
+}
+.location{
+	padding-left: 2px;
+}
+
+.house_li{
+	width: 16rem;
+	height: 5rem;
+    margin-bottom: 0.2rem;
+    background: #ffffff;
+    float: left;
+}
+.piture_box {
+	width: 6.5rem;
+	height:3.75rem;
+	float: left; 
+    margin-top: 0.65rem;
+}
+.piture_box img{
+	display: block;
+	width: 100%;
+}
+.seller_text {
+	width: 9rem;
+	height: 3.75rem;
+	float: right;
+	margin-top: 1rem;
+}
+.loact {
+	line-height: 0.5rem;
+}
+.zizhi {
+	font-size: 0.4rem;
+    color: #999999;
+    float: left;
+}
+.margin_top{
+	margin-top: 0.25rem;
+}
+
+.tab_contant_02 ul{
+	display: none;
+}
+.tab_contant_02 .open{
+	display: block;
+}
+.open {
+	display: block;
+}
+.close{
+	display: none;
+}
+.seller_house{
+	position: relative;
+}
+@media screen and (max-width:400px) {
+.right_location {
+	    margin-right: 0.05rem;
+}
+}

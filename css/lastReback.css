@@ -1,0 +1,195 @@
+body{
+	background-color: #eaebed;
+}
+.head_tittle .jiantouxia{
+	font-size: 1rem;
+}
+.head_box .notes{
+	color: #fff;
+	font-size: 1rem;
+}
+.main-box{
+	width: 100%;
+	height: 4rem;
+	background: #fff;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.hottiao{
+	position: absolute;
+	width: 13%;
+	margin-top: -3%;
+	z-index: 2;
+}
+.nav{
+	position: relative;
+	width: 150%;
+	font-size: 0;
+	text-align: left;
+	padding-left: 5px; 
+}
+.nav .piture-li{
+	position: relative;
+	display: inline-block;
+	width: 13%;
+	margin: 1.5% 0.78125%;
+}
+.nav .piture-li a{
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #ccc;
+}
+.nav .piture-li .wangguan{
+	position: absolute;
+	width: 36%;
+    margin-top: -102%;
+    margin-left: 68%;
+}
+.nav .piture-li img{
+	width: 100%;
+	display: block;
+}
+
+.main_list{
+	margin-top: 5px !important;
+	background-color: #fff;
+	font-size: 0;
+}
+.list_des{
+	padding: 16px 10px;
+}
+.datu{
+	border-radius: 10px;
+	width: 32.5%;
+	vertical-align: middle;
+}
+.list_jie{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1%;
+	width: 33.5%;
+}
+.list_jie h2{
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+.list_jie p{
+	font-size: 0.6rem;
+}
+.list_eve{
+	display: inline-block;
+	width: 33%;
+	vertical-align: bottom;
+    padding-bottom: 2%;
+}
+.list_eve a{
+	display: inline-block;
+	font-size: 0.5rem;
+	text-align: center;
+	color: #000;
+}
+.list_eve a i{
+	font-size: 1rem;
+}
+.lian{
+	width: 28%;
+}
+.list_eve .yell{
+	color: #f6da40;
+}
+.list_eve .bule{
+	color: #00f;
+}
+.list_eve .threeText{
+	width: 37%;
+}
+.list_eve .ccc{
+	color: #ccc;
+}
+.list_item{
+	border-top: 1px solid #eaebed;
+	border-bottom: 1px solid #eaebed;
+	padding: 5px 0;
+	background-color: #f9f9f9;
+	margin-left: -1px;
+}
+.list_item a{
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.5rem;
+	line-height: 30px;
+	color: #000;
+	border-left: 1px solid #e0e0e0;
+}
+.list_item .bgcli{
+	color: #fc4aac;
+}
+.tiao_list {
+	margin-top: 5px !important;
+}
+.tiao_list li{
+	border-bottom: 1px solid #eaebed;
+	padding: 10px 10px;
+	padding-right: 8%;
+	background: url(../image/images/bgarr.png) no-repeat;
+	background-size: 3%;
+    background-position: 97% center;
+	background-color: #f7f9f8;
+}
+.tiao_img{
+	display: block;
+	border-radius: 50%;
+	width: 20%;
+	overflow: hidden;
+	float: left;
+	margin-right: 5%;
+}
+.tiao_des{
+	display: block;
+	overflow: hidden;
+	font-size: 0.7rem;
+	margin-top: 3%;
+}
+.tiao_info{
+	margin-top: 3%;
+}
+.tiao_info p{
+	font-size: 0.5rem;
+	display: inline-block;
+}
+.tiao_info p span,.tiao_info p i{
+	display: inline-block;
+	vertical-align: middle;
+}
+.tiao_time,.tiao_ping{
+	float: right;
+}
+.tiao_ping i,.tiao_time i{
+	color: #cbcbcb;
+}
+.wangguan2{
+	position: absolute;
+	width: 6%;
+    margin-left: -9%;
+}
+.titmask{
+	display: none;
+	position: fixed;
+	top: 2rem;
+	width: 100%;
+	height: 100%;
+	z-index: 2001;
+	background-color: rgba(0,0,0,0.5);
+}
+.titmask li{
+	background-color: #fff;
+	text-align: center;
+	line-height: 35px;
+	font-size: 0.7rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.titmask .becli_list{
+	background-color: #eaebed;
+}

@@ -1,0 +1,425 @@
+.head_box {
+	width: 100%;
+	height: 2.225rem;
+	background: #fc4aac;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+	text-align: center;
+}
+.head_zhanwei {
+	width: 100%;
+	height: 2.225rem;
+}
+.start_logo img,.talk_logo img{
+	display: block;
+	width: 100%;
+}
+.start_logo {
+	display: inline-block;
+	width: 1.125rem;
+	height: 1.075rem;
+	float: left;
+	position: absolute;
+	left: 0.75rem;
+	top: 0.6rem;
+}
+.head_tittle {
+	font-size: 0.9rem;
+	display: inline-block;
+	line-height:2.225rem;
+	color: #ffffff;
+}
+.talk_logo {
+	width: 1.125rem;
+	height: 1.075rem;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 0.575rem;
+	right: 0.7rem;
+}
+.tend_head_box {
+	width: 16rem;
+	height: 15.625rem;
+	position: relative;
+	padding-top: 1px;
+}
+.tend_head_box>img{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+.big_radio_box {
+	width: 6.125rem;
+	height: 6rem;
+	background: url(../image/images/radio_green.png);
+	background-size: 100% 100%;
+	padding-top: 1px;
+	margin: 1.1rem auto;
+}
+.picture_box{
+	width:5.45rem;
+    margin: 0.25rem auto;
+}
+.picture_box>img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.tend_head_contant {
+	width: 16rem;
+	height: 4.25rem;
+	background: url(../image/images/huli_boli.png);
+	background-size: 100% 100%;
+	padding-top: 1px;
+}
+.pad_left {
+	padding-left: 0.6rem;
+}
+.shop_name {
+    font-size: 0.7rem;
+    color: #ffffff;
+    line-height: 1rem;
+    margin-top: 0.75rem;
+   text-align: center;
+}
+.discount{
+	font-size: 0.45rem;
+	color: #ffffff; 
+	line-height: 1rem;
+	text-align: center;
+}
+.shop_loact {
+	font-size: 0.5rem;
+	color: #ffffff;
+    text-align: center;
+}
+.shop_loact .icon {
+font-size: 0.6rem;
+}
+
+.tend_bottom_contant{
+	width: 16rem;
+	height: 3.15rem;
+	background: url(../image/images/boli.png);
+	background-size: 100% 100%;
+}
+.left {
+	width: 7rem;
+	height: 2rem;
+	float: left;
+	margin-left: 2.25rem;
+	margin-top: 0.4rem;
+}
+.right {
+	width: 5.5rem;
+	height: 2rem;
+	float: right;
+	margin-top: 0.4rem;
+}
+.good_msg {
+	font-size: 0.4rem;
+	color: #033333;
+	line-height: 0.8rem;
+
+}
+.delet_price{
+	text-decoration: line-through;
+	color: #999999;
+}
+.tab_button {
+	border-top:1px solid #cab2ba;
+}
+.tab_box{
+	width: 50%;
+	float: left;
+	background: #f9f9f9;
+	text-align: center;
+	padding: 0.25rem 0rem;
+	border-bottom: 1px solid #eaebef;
+	border-right: 1px solid #eaebef;
+
+}
+.tab_box .btn1 {
+	font-size: 0.95rem;
+    display: inline-block;
+    vertical-align: middle;
+	line-height: 1.5rem;
+	
+}
+.tab_box .btn2 {
+    display: inline-block;
+    vertical-align: middle;
+	font-size: 0.95rem;
+	line-height: 1.5rem;
+
+}
+.tab_box .pink {
+	color:#fc4aac;
+}
+.tab_msg {
+	
+	font-size: 0.6rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tab_li {
+	color: #999999;
+	font-size: 0.6rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tab_contant_02 {
+	margin-top: 0.5rem;
+}
+.tab_contant_02 ul{
+	display: none;
+}
+.tab_contant_02 .open{
+	display: block;
+}
+.open {
+	display: block;
+}
+.close{
+	display: none;
+}
+.seller_house{
+	position: relative;
+}
+.item_contant li{
+	display: none;
+	position: relative;
+}
+.item_contant .open{
+	display: block;
+}
+.contant_text {
+	line-height: 0.6rem;
+	padding-left:0.5rem;
+	padding-bottom: 0.25rem;
+}
+.common_text {
+	font-size: 0.5rem;
+	color: #333333;
+}
+.contant_shop_name {
+	font-size: 0.7rem;
+	color: #333333;
+}
+.picture_fall{
+	padding: 0.1rem;
+	position: relative;
+}
+.big_picture_boxs {
+	width: 10.3rem;
+	margin: 0.08rem;
+	float: left;
+}
+.big_picture_boxs img{
+	display: block;
+	width: 100%;
+}
+.small_picture_boxs {
+width: 4.95rem;
+margin: 0.1rem 0.08rem 0.1rem 0.19rem;
+float: left;
+}
+.small_picture_boxs img{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.talk_box{
+	border-bottom: 1px solid #efefef;
+	width: 16rem;
+	padding: 0.5rem;
+	float: left;
+}
+.tablk_head {
+	padding-top: 1px;
+}
+.head_logo_box{
+	display: block;
+	width: 1.55rem;
+	height: 1.55rem;
+	float: left;
+}
+.head_logo_box img{
+	display: block;
+	width: 100%;
+}
+.head_logo span{
+	float: left;
+	font-size: 0.55rem;
+    margin-top: 0.45rem;
+    margin-left: 0.2rem;
+}
+.head_logo {
+	width: 50%;
+	float: left;
+}
+.louceng {
+	font-size: 0.45rem;
+	color: #999999;
+	float: right;
+	margin-top: 0.45rem
+}
+.talk_title_contant {
+	margin-top: 0.2rem;
+}
+.talk_title_contant span{
+	display: inline-block;
+	line-height: 1rem;
+	font-size: 0.5rem;
+}
+.time_box {
+	margin-top: 0.5rem;
+}
+.time {
+	font-size: 0.45rem;
+	color: #999999;
+	float: left;
+}
+.right_box {
+	float: right;
+	font-size: 0.45rem;
+	color: #999999;
+}
+.right_box i{
+	font-size: 0.65rem;
+	color: #999999;
+	padding-left: 0.75rem;
+	display: inline-block;
+}
+.talking_box p{
+	font-size: 0.45rem;
+	color: #999;
+	line-height: 0.8rem;
+}
+.worder_id{
+	font-size: 0.45rem;
+	color: #55c0f2;
+}
+.word_speak{
+	font-size: 0.45rem;
+	color: #999;
+}
+.talking_box {
+	margin: 0.5rem 0rem;
+	padding: 0.35rem 0.45rem;
+	background: #efefef;
+	border-radius: 10px;
+	position: relative;
+}
+.talking_box::before {
+	content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 0.4rem solid #efefef;
+    border-left: 0.3rem solid transparent;
+    border-right: 0.25rem solid transparent;
+    position: absolute;
+    top: -0.375rem;
+    left: 0.625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zhanwei {
+	width: 100%;
+	height: 2.5rem;
+}
+.shop_bottom_nav{
+	width: 100%;
+	height: 2.5rem;
+	background: rgba(255, 255, 255, 0.6);
+	position: fixed;
+	bottom: 0px;
+}
+.shop_ul_nav li{
+	float: left;
+	width: 50%;
+	height: 2.5rem;
+}
+.nav_button a{
+	color: #fc4aac;
+}
+.nav_button{
+	padding-left: 0.5rem;
+}
+.but{
+	display: block;
+	text-align: center;
+	width: 3rem;
+	line-height: 1.5rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.5);
+	font-size: 0.5rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.but .icon{
+	font-size: 1rem;
+} 
+.phone_call .icon{
+	font-size: 1rem;
+	color: #ffffff;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.6rem;
+}
+.call_num {
+	float: left;
+	font-size: 0.6rem;
+	color: #ffffff;
+	margin-top: 0.35rem;
+	margin-left: 1.85rem;
+}
+.call_box{
+	width: 6.25rem;
+	height: 1.5rem;
+	background: #fc4aac;
+	border-radius: 9px;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}

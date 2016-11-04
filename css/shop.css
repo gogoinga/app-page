@@ -1,0 +1,420 @@
+.head_box {
+	width: 100%;
+	height: 2.225rem;
+	background: #fc4aac;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+	text-align: center;
+}
+.head_zhanwei {
+	width: 100%;
+	height: 2.225rem;
+}
+.start_logo img,.talk_logo img{
+	display: block;
+	width: 100%;
+}
+.start_logo {
+	display: inline-block;
+	width: 1.125rem;
+	height: 1.075rem;
+	float: left;
+	position: absolute;
+	left: 0.75rem;
+	top: 0.6rem;
+}
+.head_tittle {
+	font-size: 0.9rem;
+	display: inline-block;
+	line-height:2.225rem;
+	color: #ffffff;
+}
+.talk_logo {
+	width: 1.125rem;
+	height: 1.075rem;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 0.575rem;
+	right: 0.7rem;
+}
+.shop_box {
+	width: 16rem;
+	height: 12rem;
+	position: relative;
+	padding-top: 1px ;
+}
+.shop_box>img{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+}
+.shop_name {
+	width: 10.55rem;
+	font-size: 0.75rem;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+.shop_contant {
+	width: 15.5rem;
+	height: 5rem;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	margin: 1.125rem auto;
+	padding-top: 1px;
+}
+.shop_msg {
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	width: 58%;
+	float: left;
+}
+.text_li{
+	line-height: 0.6rem;
+	text-align: left;
+	padding-top: 2px;
+}
+.text_li .icon {
+	font-size: 0.6rem;
+	color: #fc4aac;
+    display: inline-block;
+    vertical-align: middle;
+}
+.text_li span{
+	font-size: 0.45rem;
+	margin-left: 0.2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.radio_box {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	border: 0.3rem solid #fc4aac;
+	padding: 0.3rem;
+	overflow: hidden;
+	margin-top: -0.52rem;
+	float: left;
+}
+.radio_box>img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.shop_location>i {
+	float: left;
+	font-size: 0.65rem;
+	margin-left: 0.5rem;
+	color: #ffffff;
+}
+.shop_location>span {
+	float: left;
+	font-size: 0.6rem;
+	color: #ffffff;
+	padding-left: 0.2rem;
+}
+.shop_nav_ul{
+	padding-left: 0.8rem;
+}
+.nav_li {
+	width: 20%;
+	float: left;
+	height: 2.75rem;
+}
+.nav_li>i{
+	display: inline-block;
+	width: 2.125rem;
+	text-align: center;
+	line-height: 1.9rem;
+	border-radius:50%;
+	font-size: 1rem;
+	border: 0.1rem solid #fc4aac;
+	color: #fc4aac;
+}
+.nav_li p{
+	font-size: 0.4rem;
+    margin-left: -0.95rem;
+    color: #666666;
+    text-align: center;
+}
+.nav_li span{
+	font-size: 0.4rem;
+	margin-top: 0.05rem;
+	color: #666666;
+}
+
+.tab_li {
+	width: 5.25rem;
+	line-height: 0.875rem;
+	float: left;
+	text-align: center;
+	font-size: 0.45rem;
+	border-radius: 20px;
+	margin-left: 1.45rem;
+	color: #666666;
+	background: #f0f0f0;
+}
+.tab_ul .pink {
+	background: #fc4aac;
+	color: #ffffff;
+}
+.tab_ul{
+	padding-left: 0.6rem;
+}
+.nav_contant {
+	margin-top: 0.6rem;
+}
+
+.tab_box {
+	margin-top: 1.3rem;
+}
+.tab_contant_02 {
+	margin-top: 0.5rem;
+}
+.tab_contant_02 ul{
+	display: none;
+}
+.tab_contant_02 .open{
+	display: block;
+}
+.open {
+	display: block;
+}
+.close{
+	display: none;
+}
+.seller_house{
+	position: relative;
+}
+.item_contant li{
+	display: none;
+	position: relative;
+}
+.item_contant .open{
+	display: block;
+}
+.good{
+	width:7.8rem;
+	float: left;
+	margin: 0.125rem 0.1rem 0rem 0.1rem;
+}
+.good img{
+	display: block;
+	width: 100%;
+}
+.resolute {
+	position: relative;
+}
+.text_contant {
+	width: 100%;
+	background:rgba(255, 255, 255, 0.7);
+	position: absolute;
+	bottom: 0px;
+	padding-bottom: 0.4rem;
+}
+.good_name{
+	font-size: 0.5rem;
+	color: #333333;
+}
+.delete_line{
+	font-size: 0.45rem;
+	color: #999999;
+	text-decoration:line-through;
+	padding-left: 0.3rem;
+}
+.money{
+	font-size: 0.45rem;
+	color: #666666;
+	line-height: 0.7rem;
+}
+.youhui {
+	font-size: 0.4rem;
+	color: #999999;
+    margin-top: 0.05rem;
+}
+.seller_box {
+	line-height: 0.8rem;
+    margin-left: 0.3rem;
+}
+.item_tst {
+	width: 33.3333%;
+	font-size: 0.4rem;
+	display: inline-block;
+	text-align: left;
+	float: left;
+	color: #666666;
+}
+.margin_left{
+	margin-left: 0.25rem;
+}
+.talk_box{
+	border-bottom: 1px solid #efefef;
+	width: 16rem;
+	padding: 0.5rem;
+	float: left;
+}
+.tablk_head {
+	padding-top: 1px;
+}
+.head_logo_box{
+	display: block;
+	width: 1.55rem;
+	height: 1.55rem;
+	float: left;
+}
+.head_logo_box img{
+	display: block;
+	width: 100%;
+}
+.head_logo span{
+	float: left;
+	font-size: 0.55rem;
+    margin-top: 0.45rem;
+    margin-left: 0.2rem;
+}
+.head_logo {
+	width: 50%;
+	float: left;
+}
+.louceng {
+	font-size: 0.45rem;
+	color: #999999;
+	float: right;
+	margin-top: 0.45rem
+}
+.talk_title_contant {
+	margin-top: 0.2rem;
+}
+.talk_title_contant span{
+	display: inline-block;
+	line-height: 1rem;
+	font-size: 0.5rem;
+}
+.time_box {
+	margin-top: 0.5rem;
+}
+.time {
+	font-size: 0.45rem;
+	color: #999999;
+	float: left;
+}
+.right_box {
+	float: right;
+	font-size: 0.45rem;
+	color: #999999;
+}
+.right_box i{
+	font-size: 0.65rem;
+	color: #999999;
+	padding-left: 0.75rem;
+	display: inline-block;
+}
+.talking_box p{
+	font-size: 0.45rem;
+	color: #999;
+	line-height: 0.8rem;
+}
+.worder_id{
+	font-size: 0.45rem;
+	color: #55c0f2;
+}
+.word_speak{
+	font-size: 0.45rem;
+	color: #999;
+}
+.talking_box {
+	margin: 0.5rem 0rem;
+	padding: 0.35rem 0.45rem;
+	background: #efefef;
+	border-radius: 10px;
+	position: relative;
+}
+.talking_box::before {
+	content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 0.4rem solid #efefef;
+    border-left: 0.3rem solid transparent;
+    border-right: 0.25rem solid transparent;
+    position: absolute;
+    top: -0.375rem;
+    left: 0.625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zhanwei {
+	width: 100%;
+	height: 2.5rem;
+}
+.shop_bottom_nav{
+	width: 100%;
+	height: 2.5rem;
+	background: rgba(255, 255, 255, 0.6);
+	position: fixed;
+	bottom: 0px;
+}
+.shop_ul_nav li{
+	float: left;
+	width: 50%;
+	height: 2.5rem;
+}
+.nav_button a{
+	color: #fc4aac;
+}
+.nav_button{
+	padding-left: 0.5rem;
+}
+.but{
+	display: block;
+	text-align: center;
+	width: 3rem;
+	line-height: 1.5rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.5);
+	font-size: 0.5rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.phone_call .icon{
+	font-size: 1rem;
+	color: #ffffff;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.6rem;
+}
+.call_num {
+	float: left;
+	font-size: 0.6rem;
+	color: #ffffff;
+	margin-top: 0.35rem;
+	margin-left: 0.1rem;
+}
+.call_box{
+	width: 6.25rem;
+	height: 1.5rem;
+	background: #fc4aac;
+	border-radius: 9px;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}
